@@ -68,6 +68,7 @@ main{
     margin-top: 50px;
     border-radius: 30px;
     border: 3px solid red;
+    font-size: 2rem;
 }
 
 .rules{

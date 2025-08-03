@@ -112,7 +112,7 @@ hideRules.addEventListener("click", () => {
 });
 
 startGameBtn.addEventListener("click", () => {
-    rules.style.display = "none";
+    rules.style.display = "none"
     startGame();
 });
 
