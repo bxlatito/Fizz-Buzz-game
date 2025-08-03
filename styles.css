@@ -79,12 +79,13 @@ main{
     top: 0; 
     width: auto;
     height: auto;
-    padding: 50px;
+    padding: 20px;
     border-radius: 50px;
     font-weight: 500;
     line-height: 31px;
     display: none;
     margin: 20px;
+    text-align: center;
 }
 
 .heading{
@@ -102,9 +103,7 @@ main{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    gap: 100px;
-    margin-top: 30px;
+    justify-content: center;
 }
 
 .hide-rules .begin-game{
@@ -151,12 +150,13 @@ main{
     top: 0px; 
     width: auto;
     height: auto;
-    padding: 50px;
+    padding: 20px;
     border-radius: 50px;
     font-weight: 500;
-    line-height: 31px;
+    line-height: 20px;
     display: none;
     margin: 10px;
-    font-size: 12px;
+    font-size: 10px;
+    text-align: center;
 }
 }
