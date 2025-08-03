@@ -408,3 +408,22 @@ main {
         max-height: 90%;
     }
 }
+
+.choices.correct {
+  animation: flash-green 0.3s;
+}
+.choices.wrong {
+  animation: flash-red 0.3s;
+}
+@keyframes flash-green {
+  0% { background-color: #b1ffb1; }
+  100% { background-color: initial; }
+}
+@keyframes flash-red {
+  0% { background-color: #ffb1b1; }
+  100% { background-color: initial; }
+}
+.choices.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
