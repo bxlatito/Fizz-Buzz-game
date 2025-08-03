@@ -8,6 +8,7 @@
 
 body{
     background-color: blanchedalmond;
+    height: 100vh;
 }
 
 header{
@@ -18,6 +19,7 @@ header{
     justify-content: center;
     gap: 10px;
     margin-top: 70px;
+    width: auto;
 }
 
 button{
@@ -55,7 +57,7 @@ main{
 }
 
 .display{
-    width: 500px;
+    width: 100vw;
     height: 100px;
     background-color: black;
     color: white;
@@ -73,15 +75,16 @@ main{
     backdrop-filter: blur(60px);
      font-family: "Playwrite AU QLD", cursive;
     position: fixed;
-    left: 130px;
-    top: 30px; 
-    width: 80vw;
-    height: 90vh;
+    left: 0;
+    top: 0; 
+    width: auto;
+    height: auto;
     padding: 50px;
     border-radius: 50px;
     font-weight: 500;
     line-height: 31px;
     display: none;
+    margin: 20px;
 }
 
 .heading{
@@ -112,4 +115,48 @@ main{
     background-color: red;
     color: black;
     cursor: pointer;
+}
+
+
+@media (max-width: 500px) {
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    gap: 10px;
+}
+
+
+.choices{
+    background-color: rgb(213, 3, 3);
+    padding: 40px;
+    border-radius: 100px;
+    border: 5px solid red;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.4rem;
+    font-weight: 700;
+    box-shadow: 2px 2px 5px black;
+}
+
+
+.rules{
+    background-color: rgba(44, 47, 49, 0.432);
+    backdrop-filter: blur(60px);
+    font-family: "Playwrite AU QLD", cursive;
+    position: fixed;
+    left: 0px;
+    top: 0px; 
+    width: auto;
+    height: auto;
+    padding: 50px;
+    border-radius: 50px;
+    font-weight: 500;
+    line-height: 31px;
+    display: none;
+    margin: 10px;
+    font-size: 12px;
+}
 }
