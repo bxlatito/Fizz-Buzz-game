@@ -16,7 +16,7 @@ startGame.addEventListener( "click" , function() {
  */
 
 
-//AI CODED THIS PART
+//----------------------------------------------------------------------------------------------------------------------------------------
 
 // Elements
 const button = document.getElementById("button");
